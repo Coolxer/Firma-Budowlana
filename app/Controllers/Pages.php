@@ -4,6 +4,11 @@ namespace App\Controllers;
 
 class Pages extends BaseController
 {
+    public function index()
+    {
+        $this->view('home');
+    }
+
     public function view($page = 'home')
     {
         if (!is_file(APPPATH . '/Views/pages/' . $page . '.php')) {
@@ -14,6 +19,7 @@ class Pages extends BaseController
         $data['title'] = ucfirst($page); // Capitalize the first letter
 
         echo view('templates/header', $data);
+        echo view('templates/menu', $data);
         echo view('pages/' . $page, $data);
         echo view('templates/footer', $data);
     }

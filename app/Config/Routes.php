@@ -17,7 +17,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('Pages');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -35,6 +35,7 @@ $routes->match(['get', 'post'], 'users/create', 'Users::create');
 $routes->get('users/(:segment)', 'Users::view/$1');
 $routes->get('users', 'Users::index');
 $routes->get('(:any)', 'Pages::view/$1');
+//$routes->get('/', 'Pages::home');
 
 
 /**
