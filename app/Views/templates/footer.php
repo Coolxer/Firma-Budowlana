@@ -1,10 +1,17 @@
-<footer>
-    <p> Copyright &copy; <script>
+<link rel="stylesheet" href="assets/css/templates/footer.css">
+
+<div class="row">
+    <footer class="col-12">
+        <i class="fas fa-copyright"></i> Copyright &copy;
+        <script>
             document.write(new Date().getFullYear())
-        </script> Łukasz Miłoś, Bartłomiej Watras. All Rights Reserved
-    </p>
-</footer>
+        </script>
+        Łukasz Miłoś, Bartłomiej Watras. Wszystkie prawa zastrzeżone
+    </footer>
 </div>
+
+</div>
+
 
 <!-- SCRIPTS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

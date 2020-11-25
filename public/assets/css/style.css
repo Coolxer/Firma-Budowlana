@@ -5,9 +5,15 @@ body {
 }
 
 body {
-  background-color: red;
+  background-color: #262626;
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.container-fluid {
+  padding: 0 !important;
 }
