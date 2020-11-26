@@ -1,10 +1,10 @@
-
 <?php
+
 if (empty($_SESSION['logged']))
-    include('home/notlogged.php');
+    include('home/quest.php');
 elseif ($_SESSION['role'] == 'klient')
-    echo "a is equal to b";
+    include('home/customer.php');
 elseif ($_SESSION['role'] == 'kierownik')
-    echo "a is smaller than b";
+    include('home/manager.php');
 else
-    echo 'ksiegowy';
+    include('home/accountant.php');

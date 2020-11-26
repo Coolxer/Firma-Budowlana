@@ -1,9 +1,9 @@
-<link rel="stylesheet" href="assets/css/pages/home/notlogged.css">
+<link rel="stylesheet" href="assets/css/pages/home/quest.css">
 
-<div class="row home-notlogged-box">
+<div class="row home-quest-box">
     <div class="col-lg-8 col-md-9 col-sm-10 col-11">
-        <div class="row home-notlogged-content">
-            <div class="col-xl-3 col-sm-11 home-notlogged-icons">
+        <div class="row home-quest-content">
+            <div class="col-xl-3 col-sm-11 home-quest-icons">
                 <div class="row">
                     <i class="far fa-building col-xl-12 col-6 icon"></i>
                     <i class="fas fa-hammer fa-flip-horizontal col-xl-12 col-6 icon"></i>
