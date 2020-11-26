@@ -10,9 +10,18 @@
   align-items: center;
 }
 
+.about-header {
+  margin: 0;
+}
+
 .about-line {
   width: 80%;
   background-color: #8c8c8c;
+  margin: 5px !important;
+}
+
+.about-stats {
+  margin-bottom: 10px;
 }
 
 .about-stat {
@@ -34,7 +43,7 @@
   justify-content: center;
   align-items: center;
 
-  font-size: 10rem;
+  font-size: 7rem;
 }
 
 .about-value {

@@ -10,13 +10,11 @@
                 </div>
             </div>
             <div class="jumbotron col-xl-9 col-sm-12">
-                <h1 class="display-4 jumb-header">Firma Budowlana</h1>
+                <h1 class="display-5 jumb-header">Firma Budowlana</h1>
                 <hr class="my-4">
                 <p class="lead"><i class="fas fa-check"></i>Realizujemy usługi najwyższej jakości. Z nami zbudujesz swój dom i wyremontujesz swoje mieszkanie!</p>
                 <p class="lead"><i class="fas fa-check"></i>Zaprojektujemy twój wymarzony dom lub wykonamy gotowy projekt!</p>
                 <p class="lead"><i class="fas fa-check"></i>Zapewniamy materiały najwyższej jakości w konkurencyjnej cenie!</p>
-                <p class="lead"><i class="fas fa-check"></i>Nasi pracownicy są najlepsi w swoim fachu!</p>
-                <p class="lead"><i class="fas fa-check"></i>Nie znajdziesz lepszej ofery na rynku!</p>
                 <hr class="my-4">
                 <p class="lead dont-wait">Nie czekaj! Już teraz złóż zgłoszenie, a otrzymasz natychmiastową ofertę!</p>
                 <a class="btn btn-primary btn-lg btn-block" href="#" role="button">Złóż zgłoszenie</a>

@@ -6,14 +6,14 @@ $db = db_connect();
 
 <div class="row about-box">
     <div class="col about-content">
-        <h1>O FIRMIE</h1>
+        <h1 class="about-header">O FIRMIE</h1>
         <hr class="my-4 about-line">
         <p>Firma Budowlana powstała w 2020 roku. Zapewniamy usługi wysokiej jakości. Mamy wyszkolonych pracowników i materiały najwyższej jakości.</p>
         <p>Nasi klienci bardzo chwalą sobie świadczone przez nas usługi i polecają nas znajomym!</p>
 
     </div>
     <div class="col-12">
-        <div class="row">
+        <div class="row about-stats">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 about-stat">
                 <i class="fas fa-users about-icon"></i>
                 <span class="about-value"">

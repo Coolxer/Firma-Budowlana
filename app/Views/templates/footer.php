@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="assets/css/templates/footer.css">
 
 <div class="row">
-    <footer class="col-12 py-4">
+    <footer class="col-12 py-3">
         <i class="fas fa-copyright"></i> Copyright &copy;
         <script>
             document.write(new Date().getFullYear())
