@@ -1,0 +1,45 @@
+.howitworks-quest-container {
+  display: flex;
+  justify-content: center;
+}
+
+.howitworks-quest-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.howitworks-quest-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 20px 50px 0;
+  background-color: #1a1a1a;
+  box-shadow: 1px 1px 2px 2px #0d0d0d;
+  font-size: 15rem;
+}
+
+.howitworks-quest-header {
+  margin-top: 50px;
+  text-align: center;
+  color: #0099ff;
+}
+
+.howitworks-quest-subheader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.howitworks-quest-task {
+  display: flex;
+  justify-content: center;
+}
+
+.alert-success {
+  background-color: #1a1a1a;
+  border: none;
+
+  box-shadow: 1px 1px 2px 2px #0d0d0d;
+  color: #0099ff;
+  text-align: center;
+}

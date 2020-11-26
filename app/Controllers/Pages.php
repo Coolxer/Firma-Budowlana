@@ -7,10 +7,11 @@ class Pages extends BaseController
     public function __construct()
     {
         session_start();
+        $_SESSION['logged'] = false;
 
         // to remove [develop only]
-        $_SESSION['logged'] = true;
-        $_SESSION['role'] = 'kierownik';
+        // $_SESSION['logged'] = true;
+        //$_SESSION['role'] = 'kierownik';
     }
 
     public function index()
