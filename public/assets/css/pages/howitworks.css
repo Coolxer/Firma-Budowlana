@@ -1,15 +1,15 @@
-.howitworks-manager-container {
+.howitworks-container {
   display: flex;
   justify-content: center;
 }
 
-.howitworks-manager-content {
+.howitworks-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.howitworks-manager-icon {
+.howitworks-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,18 +19,18 @@
   font-size: 15rem;
 }
 
-.howitworks-manager-header {
+.howitworks-header {
   margin-top: 50px;
   text-align: center;
   color: #0099ff;
 }
 
-.howitworks-manager-subheader {
+.howitworks-subheader {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.howitworks-manager-task {
+.howitworks-task {
   display: flex;
   justify-content: center;
 }
