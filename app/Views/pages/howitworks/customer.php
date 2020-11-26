@@ -9,31 +9,31 @@
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                1. Złożyć zgłoszenie.
+                Składać zgłoszenia
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                2. Akceptować ofertę.
+                Akceptować oferty
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                3. Podpisać umowę.
+                Podpisywać umowy
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                4. Monitorować status zlecenia.
+                Monitorować status zleceń
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                5. Zapłacić fakturę.
+                Opłacać faktury
             </div>
         </div>
     </div>

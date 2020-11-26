@@ -11,7 +11,7 @@ class Pages extends BaseController
 
         // to remove [develop only]
         $_SESSION['logged'] = true;
-        $_SESSION['role'] = 'klient';
+        $_SESSION['role'] = 'księgowy';
     }
 
     public function index()

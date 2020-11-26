@@ -21,13 +21,13 @@
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                Używać i odstawiać maszynę na miejsce
+                Użytkować maszyny
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                Zgłosić awarię maszyny
+                Zgłaszać awarię maszyn
             </div>
         </div>
     </div>

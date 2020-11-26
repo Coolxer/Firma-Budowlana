@@ -9,49 +9,49 @@
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                1. Składasz zgłoszenie.
+                1. Składasz zgłoszenie
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                2. Oferujemy Ci ofertę nie do odrzucenia.
+                2. Oferujemy Ci ofertę nie do odrzucenia
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                3. Akceptujesz ofertę.
+                3. Akceptujesz ofertę
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                4. Podpisujemy umowę.
+                4. Podpisujemy umowę
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                5. Realizujemy zlecenie.
+                5. Realizujemy zlecenie
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                6. Wystawiamy fakturę.
+                6. Wystawiamy fakturę
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                7. Cieszysz się z wykonanej usługi.
+                7. Cieszysz się z wykonanej usługi
             </div>
         </div>
 
         <div class="row howitworks-task">
             <div class="col-12 alert alert-success" role="alert">
-                8. Polecasz nas swoim znajomym.
+                8. Polecasz nas swoim znajomym
             </div>
         </div>
     </div>
