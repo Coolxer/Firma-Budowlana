@@ -6,7 +6,7 @@ $db = db_connect();
 
 <div class="row about-box">
     <div class="col about-content">
-        <h1>O FIRMIE </h1>
+        <h1>O FIRMIE</h1>
         <hr class="my-4 about-line">
         <p>Firma Budowlana powstała w 2020 roku. Zapewniamy usługi wysokiej jakości. Mamy wyszkolonych pracowników i materiały najwyższej jakości.</p>
         <p>Nasi klienci bardzo chwalą sobie świadczone przez nas usługi i polecają nas znajomym!</p>
@@ -14,7 +14,6 @@ $db = db_connect();
     </div>
     <div class="col-12">
         <div class="row">
-            <hr class="d-xl-none d-lg-none d-md-none d-sm-block d-block my-4 about-line">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 about-stat">
                 <i class="fas fa-users about-icon"></i>
                 <span class="about-value"">
@@ -24,30 +23,27 @@ $db = db_connect();
                 </span>
                 klientów
             </div>
-            <hr class=" d-xl-none d-lg-none d-md-none d-sm-block d-block my-4 about-line">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 about-stat">
-                        <i class="fas fa-home about-icon"></i>
-                        <span class="about-value"">
+            <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-12 about-stat">
+                    <i class="fas fa-home about-icon"></i>
+                    <span class="about-value"">
                     <?php
                     echo count($db->query('SELECT * FROM zlecenia')->getResult());
                     ?>
                 </span>
                 zleceń
             </div>
-            <hr class=" d-xl-none d-lg-none d-md-none d-sm-block d-block my-4 about-line">
-                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 about-stat">
-                                <i class="fas fa-cogs about-icon"></i>
-                                <span class="about-value"">
+                        <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-12 about-stat">
+                        <i class="fas fa-cogs about-icon"></i>
+                        <span class="about-value"">
                     <?php
                     echo count($db->query('SELECT * FROM maszyny')->getResult());
                     ?>
                 </span>
                 maszyn
             </div>
-            <hr class=" d-xl-none d-lg-none d-md-none d-sm-block d-block my-4 about-line">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 about-stat">
-                                        <i class="fas fa-user-cog about-icon"></i>
-                                        <span class="about-value"">
+                                <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-12 about-stat">
+                            <i class="fas fa-user-cog about-icon"></i>
+                            <span class="about-value"">
                     <?php
                     echo count($db->query('SELECT * FROM danepersonalne WHERE Rola="pracownik"')->getResult());
                     ?>
