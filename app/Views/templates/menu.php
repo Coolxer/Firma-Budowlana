@@ -16,6 +16,9 @@
                 <a class="nav-link" href="/about">O firmie</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/howitworks">Jak to działa?</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="/contact">Kontakt</a>
             </li>
         </ul>

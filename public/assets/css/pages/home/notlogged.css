@@ -1,9 +1,9 @@
-.home-box {
+.home-notlogged-box {
   display: flex;
   justify-content: center;
 }
 
-.home-content {
+.home-notlogged-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -15,7 +15,7 @@
   box-shadow: 1px 1px 2px 2px #0d0d0d;
 }
 
-.icons {
+.home-notlogged-icons {
   display: flex;
   justify-content: space-around;
   font-size: 2em;
