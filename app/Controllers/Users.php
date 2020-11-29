@@ -2,14 +2,14 @@
 
 namespace App\Controllers;
 
-use App\Models\UsersModel;
+use App\Models\PersonalDataModel;
 use CodeIgniter\Controller;
 
 class Users extends Controller
 {
     public function login()
     {
-        $model = new UsersModel();
+        $model = new PersonalDataModel();
 
         if ($this->request->getMethod() === 'post' && $this->validate([
             'firstname' => 'required|max_length[50]',
