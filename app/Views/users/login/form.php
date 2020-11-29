@@ -24,5 +24,4 @@
     <input type="input" name="role" /><br />
 
     <input type="submit" name="submit" value="Create user item" />
-
 </form>

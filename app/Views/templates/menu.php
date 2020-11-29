@@ -22,15 +22,15 @@
                 <a class="nav-link" href="/contact">Kontakt</a>
             </li>
         </ul>
+        <i class="fas fa-user"></i>
+        <?php
+
+        if (empty($_SESSION['email']) && empty($_SESSION['pesel'])) {
+            echo '<a class="nav-link" href="users/login">Zaloguj się</a>';
+        } else {
+            echo '<span>$_SESSION[\'email\']</span>';
+        }
+
+        ?>
     </div>
-    <i class="fas fa-user"></i>
-    <?php
-
-    if (empty($_SESSION['email']) && empty($_SESSION['pesel'])) {
-        echo '<li class=\"nav-item\"><a class=\"nav-link\" href=user/login>Zaloguj się</a> </li>';
-    } else {
-        echo '<li class=\"nav-item\">$_SESSION[\'email\']</li>';
-    }
-
-    ?>
 </nav>

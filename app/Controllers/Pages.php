@@ -11,7 +11,7 @@ class Pages extends BaseController
 
         // to remove [develop only]
         $_SESSION['logged'] = true;
-        $_SESSION['role'] = 'księgowy';
+        $_SESSION['role'] = 'kierownik';
     }
 
     public function index()
@@ -29,7 +29,6 @@ class Pages extends BaseController
         $data['title'] = ucfirst($page); // Capitalize the first letter
 
         echo view('templates/header', $data);
-        echo view('templates/menu', $data);
         echo view('pages/' . $page, $data);
         echo view('templates/footer', $data);
     }

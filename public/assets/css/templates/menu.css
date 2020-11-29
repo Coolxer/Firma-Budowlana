@@ -23,3 +23,7 @@
   margin-right: 5px;
   font-size: 2rem;
 }
+
+.nav-link:hover {
+  color: #0099ff !important;
+}

@@ -5,40 +5,9 @@ namespace App\Controllers;
 use App\Models\UsersModel;
 use CodeIgniter\Controller;
 
-class users extends Controller
+class Users extends Controller
 {
-    public function index()
-    {
-        $model = new UsersModel();
-
-        $data = [
-            'users'  => $model->getUsers(),
-            'title' => 'Users',
-        ];
-
-        echo view('templates/header', $data);
-        echo view('users/overview', $data);
-        echo view('templates/footer', $data);
-    }
-
-    public function view($slug = null)
-    {
-        $model = new UsersModel();
-
-        $data['users'] = $model->getUsers($slug);
-
-        if (empty($data['users'])) {
-            throw new \CodeIgniter\Exceptions\PageNotFoundException('Cannot find the users: ' . $slug);
-        }
-
-        $data['title'] = $data['users']['title'];
-
-        echo view('templates/header', $data);
-        echo view('users/view', $data);
-        echo view('templates/footer', $data);
-    }
-
-    public function create()
+    public function login()
     {
         $model = new UsersModel();
 
@@ -59,10 +28,10 @@ class users extends Controller
                 'Rola' => $this->request->getPost('role'),
             ]);
 
-            echo view('users/success');
+            echo view('users/login/success');
         } else {
-            echo view('templates/header', ['title' => 'Create a user']);
-            echo view('users/create');
+            echo view('templates/header');
+            echo view('users/login/form');
             echo view('templates/footer');
         }
     }
